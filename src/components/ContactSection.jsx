@@ -115,6 +115,9 @@ const ContactSection = () => {
           >
             {loading ? 'Sending...' : 'Send Message'} <FiArrowUpRight className="inline" />
           </button>
+          <div className='italic'>
+          <div className='circle pulse'></div>available for immediate hire
+          </div>
         </fieldset>
       </form>
     </section>
