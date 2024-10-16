@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  font-family: 'General Sans', sans-serif;
+}
+
+body {
+  background: #010103;
+  color: white;
+}
+
+.hi {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  15% {
+    transform: rotate(14deg);
+  }
+
+  30% {
+    transform: rotate(-8deg);
+  }
+
+  40% {
+    transform: rotate(14deg);
+  }
+
+  50% {
+    transform: rotate(-4deg);
+  }
+
+  60% {
+    transform: rotate(10deg);
+  }
+
+  70% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.rotating {
+  animation: spin 8s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+    /* Adjust this value for how high/low it floats */
+  }
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(3, 255, 3);
+  display: inline-block;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.pulse {
+  animation: pulse-animation 1.5s infinite ;
+}
+
+@keyframes pulse-animation {
+  0% {
+    transform: scale(.5);
+    background-color: rgba(3, 255, 3, 0.7);
+    /* border-radius: 100%; */
+  }
+
+  50% {
+    background-color: rgba(3, 255, 3, 0.4);
+  }
+
+  100% {
+    transform: scale(2.0);
+    background-color: rgba(3, 255, 3, 0);;
+  }
+}
+
+/* COPIED=========================== */
