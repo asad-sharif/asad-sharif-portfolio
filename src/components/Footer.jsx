@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row sm:items-center gap-4">
           
           {/* Social Media Links with Icons */}
-          <a href="https://wa.me/00923009628704" 
+          <a href="https://wa.me/+923009628704" 
             className="flex items-center gap-2 hover:text-white transition duration-200 ease-in-out"
             target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
             <FaWhatsapp className="text-xl" /> WhatsApp
