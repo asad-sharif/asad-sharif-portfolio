@@ -16,7 +16,7 @@ const HeroSection = () => {
 
             <div className='my-4'>
                 <motion.h2
-                    className='text-center sm:text-6xl text-2xl font-bold py-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'
+                    className='text-center sm:text-4xl md:text-5xl text-3xl font-bold py-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2, duration: 1 }}
@@ -25,7 +25,7 @@ const HeroSection = () => {
                 </motion.h2>
 
                 <motion.h2
-                    className='text-center sm:text-6xl text-2xl font-bold py-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'
+                    className='text-center sm:text-4xl md:text-5xl text-3xl font-bold py-2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 1 }}
