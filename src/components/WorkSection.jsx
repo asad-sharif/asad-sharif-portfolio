@@ -8,46 +8,47 @@ const TextParallaxContentExample = () => {
         <div className="">
             {/* First parallax content with its own image, heading, and subheading */}
             <TextParallaxContent
+                imgUrl={'assets/elevation-ex.png'}
+                subheading="E-Commerce"
+                heading="Crafted for export enthusiasts."
+            >
+                <ExampleContent
+                    title="Elevation Ex"
+                    paragraph1="ELEVATION EX is a comprehensive e-commerce platform built with the MERN stack (MongoDB, Express, React, Node.js). This project showcases a fully functional online store with both frontend and backend implementations, including user authentication, product management, and order processing."
+                    paragraph2="Elevation Ex combines responsive layouts and modern UI principles to create an engaging entry point for e-commerce export enthusiasts."
+                    buttonText="Live demo"
+                    link='https://github.com/asad-sharif/Elevation-Ex'
+                />
+            </TextParallaxContent>
+
+            {/* Second parallax content section */}
+            <TextParallaxContent
                 imgUrl={'assets/vanlife.png'}
                 subheading="Explore"
                 heading="Designed for adventurers."
             >
                 <ExampleContent
-                    title="Van Life - Plan Your Journey"
+                    title="Van Life"
                     paragraph1="Van Life is a dynamic web app designed for travelers to explore and plan their adventures seamlessly. Built with React and Router 6, it offers an intuitive interface and smooth navigation, allowing users to discover van travel tips and destinations effortlessly."
                     paragraph2="This project showcases my expertise in developing responsive, user-friendly interfaces that enhance the digital travel experience."
                     buttonText="Live demo"
                     link='https://vanlife-virid.vercel.app/'
                 />
             </TextParallaxContent>
-
-            {/* Second parallax content section */}
-            <TextParallaxContent
-                imgUrl={'assets/virtualr.png'}
-                subheading="Immersive"
-                heading="Crafted for virtual worlds."
-            >
-                <ExampleContent
-                    title="VirtualR - Experience Virtual Reality"
-                    paragraph1="VirtualR is a visually striking landing page designed to introduce users to immersive virtual reality experiences. Developed with TypeScript and Tailwind CSS, this project demonstrates my ability to blend sleek design with performance-focused development."
-                    paragraph2="VirtualR combines responsive layouts and modern UI principles to create an engaging entry point for virtual reality enthusiasts."
-                    buttonText="Live demo"
-                    link='https://virtual-r-eta-nine.vercel.app/'
-                />
-            </TextParallaxContent>
+           
 
             {/* Third parallax content section */}
             <TextParallaxContent
                 imgUrl={'assets/clarity.png'}
                 subheading="Productive"
-                heading="Built to organize life."
+                heading="Simplify tasks; amplify productivity."
             >
                 <ExampleContent
-                    title="Clarity - Stay Organized"
-                    paragraph1="Clarity is a minimalistic task management app that helps users streamline their daily activities. Using React and Firebase for real-time data storage, this app ensures that productivity is as simple and efficient as possible."
+                    title="Clarity"
+                    paragraph1="Clarity is a minimalistic task management app that helps users streamline their daily activities. Using MERN technologies, this app ensures that productivity is as simple and efficient as possible."
                     paragraph2="With a clean design and intuitive functionality, Clarity showcases my focus on usability and performance in web application development."
                     buttonText="Live demo"
-                    link='https://asad-sharif.github.io/clarity---todo-app/'
+                    link='https://github.com/asad-sharif/Clarity'
                 />
             </TextParallaxContent>
 

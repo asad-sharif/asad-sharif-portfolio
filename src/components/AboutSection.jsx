@@ -29,7 +29,7 @@ const AboutSection = () => {
                     <img src={'assets/grid2.png'} alt="" className='' />
                     <div>
                         <h3 className='font-semibold my-4 text-xl'>Tech Stack</h3>
-                        <p className='text-neutral-500'>I specialize in a diverse array of frontend technologies—including HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, and Git—that empower me to build robust and scalable web applications.</p>
+                        <p className='text-neutral-500'>I specialize in a diverse array of frontend technologies—including HTML, CSS, JavaScript, TypeScript, React, Tailwind CSS, MUI, Shadcn and Git—that empower me to build robust and scalable web applications.</p>
                     </div>
                 </div>
 
